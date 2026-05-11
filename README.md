@@ -1,13 +1,13 @@
 # AstryxFX
 
-A command-line applicaton built to manage API data requests from Faceit using JavaFX and Maven.
+A GUI application built to manage API data requests from Faceit using JavaFX and Maven.
 
 ## Overview
 
-Astryx is a Discord bot combined with an API and SQL manager, command line input, and statistics creator.
-The application automatically updates a master database of matches, maps, vetoes, and statistics every 15 minutes, or on-demand using the inline commands.
+Astryx is a Discord bot combined with an API and SQL manager, GUI input, and statistics creator.
+The application automatically updates a master database of matches, maps, vetoes, and statistics every 15 minutes, or on-demand using the program commands.
 
-The Discord bot allows teams to retreive statistics immediately.
+The Discord bot allows teams to retrieve statistics immediately.
 For instance, a team may want statistics on an opponent for various strategic decisions.
 Since this process is fully automated, there is no middleman and each team gets the up-to-date statistics immediately.
 
@@ -20,7 +20,7 @@ Has numerous features, such as autocomplete.
 Connects to a Discord bot using Discord4J's reactive API, handling events and interactions.
 
 **Annotations and Reflections**
-Easily usable annotations makes it easy to define bot commands and in-line commands.
+Easily usable annotations makes it easy to define bot commands and program commands.
 
 **SQL Manager**
 Stores settings and records in a MySQL database via the official MySQL Connector/J.
@@ -61,4 +61,4 @@ We create the charts sent using the Discord commands using matplotlib.
 - traceback (error handling and debugging)
 
 ## Author
-Kierstyn "Kjersti" McMillin
+Kierstyn "Kjersti" McMillin, for usage at Maryville University and Fluffy Aimers.
