@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane styleClass="terminalBackground" stylesheets="@style/TerminalStyle.css" fx:id="terminalPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kjersti.astryx.ui.terminal.TerminalController">
+   <children>
+      <TextArea fx:id="terminalOutput" focusTraversable="false" wrapText="true" styleClass="terminalOutput" editable="false" layoutX="10.0" layoutY="100.0" prefHeight="400.0" prefWidth="765.0" onMouseClicked="#onOutputTerminalClicked"/>
+      <TextField fx:id="terminalInput" styleClass="terminalInput" layoutX="10.0" layoutY="500.0" prefHeight="40.0" prefWidth="765.0" onKeyPressed="#onKeyPressed"/>
+      <ListView fx:id="autocompleteList" styleClass="autocompleteList" visible="false" mouseTransparent="true" layoutX="15" focusTraversable="false" prefWidth="200" fixedCellSize="24"/>
+   </children>
+</AnchorPane>

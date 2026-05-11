@@ -1,0 +1,14 @@
+.menuPane{
+-fx-background-color: #240046;
+}
+
+.sidebarItem{
+-fx-background-color: #240046;
+}
+
+.sidebarItem:hover{
+-fx-background-color: #3c096c;
+-fx-border-color: WHITE;
+-fx-border-width: 0px 0px 0px 3px;
+}
+

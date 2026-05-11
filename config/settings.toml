@@ -1,0 +1,58 @@
+[debug]
+enable_update_mode=false
+update_mode_downtime_ms=90000
+debug_log=true
+
+[bot]
+enable_bot=true
+use_test_dummy=false
+
+[terminal]
+show_terminal=true
+terminal_command_prefix=""
+run_after_close=false
+window_width=800
+window_height=600
+
+[api]
+championship_api_limit=10 #max 10
+concurrent_thread_count=4 #limit to avoid too many requests
+
+[maps]
+default_map_type="Scrim"
+use_patch_override=false
+patch_override=""
+use_date_override=false
+date_override=""
+
+# Test SQL items
+[sql]
+host="localhost"
+username="root"
+password=""
+sql_batch_limit=50
+
+[database]
+registry_database_id="astryxfx_registry"
+map_database_id="astryxfx_data"
+api_database_id="astryxfx_data"
+
+manual_championships_table="manual_championships"
+manual_matches_table="manual_matches"
+faceit_map_table="faceit_maps"
+raw_veto_data_table="raw_veto_data"
+head_to_head_veto_table="h2h_vetoes"
+veto_data_table="veto_data"
+match_data_table="match_data"
+maps_data_table="map_data"
+map_registry_table="map_registry"
+team_registry_table="team_registry"
+
+championship_data_table="championship_data"
+attacking_first_table="attacking_first_data"
+
+[championships]
+game_id="ow2"
+championship_blacklist=["Unranked", "Trial", "Meta Learning", "Tank Duel", "Damage Duel", "Support Duel",
+"Competitive - Elimination", "Competitive - Brawl vs Brawl", "Competitive - Dive vs Dive", "Competitive - Poke vs Poke",
+"2v2", "WASB", "1v1"]

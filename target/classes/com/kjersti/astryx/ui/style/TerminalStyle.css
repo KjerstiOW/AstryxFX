@@ -1,0 +1,48 @@
+.terminalBackground{
+    -fx-background-color: BLACK;
+}
+
+.terminalInput{
+    -fx-highlight-fill: #00FF00;
+    -fx-control-inner-background: BLACK;
+    -fx-text-fill: #00FF00;
+    -fx-text-box-border: #00FF00;
+    -fx-focus-color: #00FF00;
+}
+
+.terminalInput:focused{
+    -fx-highlight-fill: #004400;
+    -fx-text-box-border: #00FF00;
+    -fx-focus-color: #00FF00;
+}
+
+.terminalOutput{
+    -fx-highlight-fill: #004400;
+    -fx-control-inner-background: BLACK;
+    -fx-text-fill: #00FF00;
+    -fx-text-box-border: #00FF00;
+    -fx-focus-color: #00FF00;
+}
+
+.terminalOutput:focused{
+    -fx-highlight-fill: green;
+    -fx-text-box-border: #00FF00;
+    -fx-focus-color: #00FF00;
+}
+
+.terminalOutput .scroll-bar:vertical {
+    -fx-background-color: BLACK;
+    -fx-control-inner-background: BLACK;
+}
+
+.autocompleteList{
+    -fx-text-box-border: #FFFF00;
+    -fx-background-color: BLACK;
+    -fx-padding: 0;
+}
+
+.autocompleteList .scroll-bar:vertical {
+    -fx-scale-x: 0;
+    -fx-opacity: 0;
+    -fx-padding: -10;
+}
