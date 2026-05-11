@@ -12,29 +12,29 @@ For instance, a team may want statistics on an opponent for various strategic de
 Since this process is fully automated, there is no middleman and each team gets the up-to-date statistics immediately.
 
 ## Components
-**Desktop GUI**
+### Desktop GUI
 A JavaFX interface built with FXML and CSS that lets users manage bot behaviour without writing or restarting code.
 Has numerous features, such as autocomplete.
 
-**Discord Bot Control**
+### Discord Bot Control
 Connects to a Discord bot using Discord4J's reactive API, handling events and interactions.
 
-**Annotations and Reflections**
+### Annotations and Reflections
 Easily usable annotations makes it easy to define bot commands and program commands.
 
-**SQL Manager**
+### SQL Manager
 Stores settings and records in a MySQL database via the official MySQL Connector/J.
 
-**External API Integration**
+### External API Integration
 Makes outbound HTTP requests using OkHttp, with JSON responses handled through Jackson and org.json
 
-**Configuration**
+### Configuration
 Bot and application settings are managed through readable TOML config files
 
-**Logging**
+### Logging
 Uses Log4j2 with SLF4J bridging to produce structured logs, stored in a dedicated logs directory
 
-**Python**
+### Python
 We create the charts sent using the Discord commands using matplotlib.
 
 ## Tech Stack
