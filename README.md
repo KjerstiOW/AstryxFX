@@ -38,7 +38,6 @@ Uses Log4j2 with SLF4J bridging to produce structured logs, stored in a dedicate
 We create the charts sent using the Discord commands using matplotlib.
 
 ## Tech Stack
-## Tech Stack
 
 ### Java 22
 - Maven (build system)
@@ -60,3 +59,6 @@ We create the charts sent using the Discord commands using matplotlib.
 - JSON (data handling)
 - sys (system-level operations)
 - traceback (error handling and debugging)
+
+## Author
+Kierstyn "Kjersti" McMillin
