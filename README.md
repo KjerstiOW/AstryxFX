@@ -11,9 +11,10 @@ The Discord bot allows teams to retrieve statistics.
 For instance, a team may want statistics on an opponent for various strategic decisions.
 Since this process is fully automated, there is no middleman and each team gets the up-to-date statistics immediately.
 
+### Program
 <img width="783" height="590" alt="image" src="https://github.com/user-attachments/assets/7ed4822b-ecc7-4ed5-8b36-a2406f902223" />
 
-Example output
+### Example output
 <img width="998" height="589" alt="image" src="https://github.com/user-attachments/assets/0afa6a25-0964-41d1-8d85-8067fe694f8e" />
 
 ## Components
