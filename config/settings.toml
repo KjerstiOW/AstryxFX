@@ -29,7 +29,7 @@ date_override=""
 [sql]
 host="localhost"
 username="root"
-password=""
+password="${DB_PASSWORD}"
 sql_batch_limit=50
 
 [database]
